@@ -1,0 +1,18 @@
+{
+  "__version__": "1.0.4",
+  "custom_joint_texture_layouts": [],
+  "general": {
+    "designResolution": {
+      "fitHeight": false,
+      "width": 640,
+      "height": 960,
+      "fitWidth": true
+    }
+  },
+  "layer": [
+    {
+      "name": "Canvas_19",
+      "value": 524288
+    }
+  ]
+}
