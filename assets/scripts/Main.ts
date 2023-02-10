@@ -1,17 +1,17 @@
 import { _decorator, Component, SystemEvent } from 'cc';
-import { TitleVisible } from './TitleVisible'
+import { TitleLayout } from "./TitleLayout";
 const { ccclass, property } = _decorator;
 
 @ccclass
 export class Main extends Component {
-  @property(TitleVisible)
-  titleVisible: TitleVisible = null
+  @property(TitleLayout)
+  titleLayout: TitleLayout = null;
 
   start() {
-    this.titleVisible.init(this)
+    this.titleLayout.init(this);
     this.scheduleOnce(() => {
-        this.titleVisible.show()
-    }, 0.2)
+      this.titleLayout.show();
+    }, 0.1);
   }
 
   update(deltaTime: number) {}
